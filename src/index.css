@@ -37,3 +37,18 @@
 footer {
   font-family: "Potta One", cursive;
 }
+
+.gitLink {
+  color: rgb(65, 70, 65);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.gitLink:hover {
+  color: rgb(36, 36, 30);
+  text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer;
+}

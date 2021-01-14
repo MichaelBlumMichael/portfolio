@@ -7,7 +7,7 @@ function Cards(props) {
       onClick={(e) => props.click(props.item)}
     >
       <img
-        className="g-card-image"
+        className="g-card-image pointer"
         src={props.item.imgSrc}
         alt={props.item.imgSrc}
       />

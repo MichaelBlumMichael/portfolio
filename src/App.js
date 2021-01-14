@@ -28,8 +28,9 @@ class App extends React.Component {
       home: {
         title: "YOU ASK - I DELIVER",
         subTitle:
-          "If you are looking for a web developer who is responsible, hard working and always willing to learn and grow - I am your guy!",
-        text: "Check out my projects below",
+          "Responsible - Hard working -Always willing to learn and grow",
+        text: "Check out my projects down below",
+        gitHub: "click here to view my GitHub repository",
       },
       about: {
         title: "About me",
@@ -73,8 +74,9 @@ class App extends React.Component {
             render={() => (
               <Home
                 title={this.state.home.title}
-                subTitle={this.state.home.subtitle}
+                subTitle={this.state.home.subTitle}
                 text={this.state.home.text}
+                gitHub={this.state.home.gitHub}
               />
             )}
           />
@@ -84,7 +86,6 @@ class App extends React.Component {
             render={() => (
               <About
                 title={this.state.about.title}
-                subTitle={this.state.about.subtitle}
                 text={this.state.about.text}
               />
             )}
