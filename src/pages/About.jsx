@@ -8,14 +8,15 @@ function About(props) {
       <Hero title={props.title} />
       <Content>
         <p>
-          Hello, my name is Michael. I'm a full stack engineer with experience
-          in React, NodeJS, Express JS, PHP, Laravel, MongoDB, and mySQL.
+          Hello, my name is Michael. I'm a full stack web developer with
+          knowledge in React, NodeJS, Express JS, PHP, Laravel, MongoDB, and
+          mySQL.
         </p>
 
         <p>
-          My goal is to work at a place where I can learn and develop myself as
-          a developer. I really look forward to work with a great team of people
-          with a lot of experience and collaborate.
+          My goal is to work at a place where I can learn and grow as a
+          developer. I really look forward to work with a great team of people
+          with a lot of experience and collaborate together.
         </p>
 
         <p>

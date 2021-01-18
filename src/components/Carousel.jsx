@@ -20,7 +20,7 @@ class Carousel extends React.Component {
           subtitle:
             "An e-shop website for tennis equipment - PHP Laravel bootstrap css mySQL",
           imgSrc: Photo1,
-          link: "//tennis.michael-blum-playground.com",
+          link: "http://tennis.michael-blum-playground.com",
           selected: false,
         },
         {
@@ -33,10 +33,10 @@ class Carousel extends React.Component {
         },
         {
           id: 2,
-          title: "Mardi Gras",
-          subtitle: "css, scss, project",
+          title: "Movie Search",
+          subtitle: "A movie search engin using React, css and an API",
           imgSrc: Photo3,
-          link: "http://mardi.michael-blum-playground.com",
+          link: "https://michaelblummichael.github.io/react-movie-search/",
           selected: false,
         },
       ],
